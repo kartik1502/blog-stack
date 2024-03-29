@@ -5,7 +5,7 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
+since = 2024
 customText = ""
 
 [dateFormat]
@@ -19,14 +19,14 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/profile.gif"
 
 [article]
 math = false
-readingTime = true
+readingTime = false
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
@@ -37,7 +37,7 @@ type = "search"
 type = "archives"
 
 [widgets.homepage.params]
-limit = 5
+limit = 2
 
 [[widgets.homepage]]
 type = "categories"
@@ -55,7 +55,7 @@ limit = 10
 type = "toc"
 
 [opengraph.twitter]
-site = ""
+site = "Kartik1141"
 card = "summary_large_image"
 
 [defaultImage.opengraph]
@@ -75,7 +75,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
