@@ -2,5 +2,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Example Site"
+title = "Karthik Kulkarni"
 weight = 1
+
+#[fr]
+#languageName = "French"
+#languagedirection = ""
+#title = "kishan"
+#weight = 2
